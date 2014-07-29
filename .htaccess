@@ -1,0 +1,2 @@
+# disable hotlink protection
+RewriteEngine off

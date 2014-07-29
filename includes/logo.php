@@ -1,0 +1,1 @@
+<a href="index.php"><img src="assets/Google PageRank Checker.png" style="width:350px" border="0"/></a>
