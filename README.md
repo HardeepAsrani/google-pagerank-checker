@@ -11,12 +11,14 @@ Download the latest version of this project [by clicking here](https://github.co
 Screenshots
 ------------------
 
-Will be added here as soon as I'll publish the Github page.
+![Homepage](https://raw.githubusercontent.com/HardeepAsrani/Google-PageRank-Checker/gh-pages/images/home.png)
+![PageRank](https://raw.githubusercontent.com/HardeepAsrani/Google-PageRank-Checker/gh-pages/images/rank.png)
 
 License
 ------------
 
 Google PageRank Checker - MIT License
+
 [jQuery Reveal Plugin 1.0](http://zurb.com/playground/reveal-modal-plugin) (used for the lightbox effect) - MIT License
 
 Feel free to use it :)
