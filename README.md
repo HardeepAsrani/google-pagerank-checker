@@ -9,18 +9,13 @@ Create your own Google PageRank Checker service with this small PHP Script + Web
 How To Use
 -----------------
 
-Download the latest version of this project [by clicking here](https://github.com/HardeepAsrani/Google-PageRank-Checker/archive/master.zip) and just upload it to your web hosting.
+Download the latest version of this project [by clicking here](https://github.com/HardeepAsrani/google-pagerank-checker/archive/master.zip) and just upload it to your web hosting.
 
 Screenshots
 ------------------
 
-<<<<<<< HEAD
 ![Homepage](https://raw.githubusercontent.com/HardeepAsrani/google-pagerank-checker/gh-pages/images/home.png)
 ![PageRank](https://raw.githubusercontent.com/HardeepAsrani/google-pagerank-checker/gh-pages/images/rank.png)
-=======
-![Homepage](https://raw.githubusercontent.com/HardeepAsrani/Google-PageRank-Checker/gh-pages/images/home.png)
-![PageRank](https://raw.githubusercontent.com/HardeepAsrani/Google-PageRank-Checker/gh-pages/images/rank.png)
->>>>>>> origin/master
 
 License
 ------------
