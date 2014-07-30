@@ -14,8 +14,13 @@ Download the latest version of this project [by clicking here](https://github.co
 Screenshots
 ------------------
 
+<<<<<<< HEAD
 ![Homepage](https://raw.githubusercontent.com/HardeepAsrani/google-pagerank-checker/gh-pages/images/home.png)
 ![PageRank](https://raw.githubusercontent.com/HardeepAsrani/google-pagerank-checker/gh-pages/images/rank.png)
+=======
+![Homepage](https://raw.githubusercontent.com/HardeepAsrani/Google-PageRank-Checker/gh-pages/images/home.png)
+![PageRank](https://raw.githubusercontent.com/HardeepAsrani/Google-PageRank-Checker/gh-pages/images/rank.png)
+>>>>>>> origin/master
 
 License
 ------------
