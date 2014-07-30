@@ -4,6 +4,7 @@ Google PageRank Checker
 Create your own Google PageRank Checker service with this small PHP Script + Website Template. All you need to do is download & drop this PageRank checker to your server and that's it!
 
 [Demo](http://www.hardeepasrani.com/demo/pagerank/)
+
 [Details](http://hardeepasrani.github.io/google-pagerank-checker/)
 
 How To Use
