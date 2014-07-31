@@ -27,4 +27,4 @@ Google PageRank Checker - MIT License
 
 Feel free to use it :)
 
-Don't forget to following me [@HardeepAsrani](https://www.twitter.com/HardeepAsrani)
+Don't forget to follow me on Twitter [@HardeepAsrani](https://www.twitter.com/HardeepAsrani)
