@@ -9,7 +9,7 @@ class GooglePageRankChecker
 
 	// Constructor
 
-	function getRank($page)
+	public static function getRank($page)
 	{
 
 		// Create the instance, if one isn't created yet
