@@ -2,6 +2,7 @@
 <html lang="en">
 
 <?php include 'includes/header.php'; ?>
+<?php include 'includes/validation.php'; ?>
 
 <body>
 
