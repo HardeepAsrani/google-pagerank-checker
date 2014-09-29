@@ -12,14 +12,14 @@
 &lt;tr&gt;&lt;td style=&quot;background:#fff;vertical-align:middle;&quot;&gt;
 &lt;p style=&quot;font-size:11px;font-family:Verdana;margin:0px;padding:2px;color:#555;&quot;&gt;&lt;strong&gt;Check PageRank:&lt;/strong&gt;&lt;/p&gt;
 &lt;/td&gt;&lt;/tr&gt;
-&lt;form name=&quot;pr&quot; action=&quot;http://www.trickspanda.com/tools/pagerank/rank.php&quot; method=&quot;post&quot; style=&quot;margin:0px;padding:0px;&quot; target=&quot;_black&quot;&gt;
+&lt;form name=&quot;pr&quot; action=&quot;http://www.hardeepasrani.com/demo/pagerank/rank.php&quot; method=&quot;post&quot; style=&quot;margin:0px;padding:0px;&quot; target=&quot;_black&quot;&gt;
 &lt;tr&gt;&lt;td style=&quot;padding:10px;background:#fff;&quot;&gt;
 &lt;input type=&quot;text&quot; value=&quot;http://&quot; name=&quot;www&quot; maxlength=&quot;150&quot; style=&quot;width:250px;padding:1px 2px 2px 3px;margin-right:10px;font-size:13px;font-family:Arial;&quot;&gt; 
 &lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot; Check PageRank &quot; style=&quot;width:80px;font-size:11px;font-family:Arial;padding:1px;&quot;&gt;
 &lt;/td&gt;&lt;/tr&gt;
 &lt;/form&gt;
 &lt;tr&gt;&lt;td&gt;
-&lt;p style=&quot;margin:0px;padding:3px 0px 1px 0px;color:#242424;background: #fff;font-size:9px;font-family:Verdana;&quot;&gt;Powered by &lt;a href=&quot;http://www.trickspanda.com/tools/pagerank/&quot; target=&quot;_blank&quot;&gt;PageRank Checker&lt;/a&gt;.&lt;/p&gt;
+&lt;p style=&quot;margin:0px;padding:3px 0px 1px 0px;color:#242424;background: #fff;font-size:9px;font-family:Verdana;&quot;&gt;Powered by &lt;a href=&quot;http://www.hardeepasrani.com/demo/pagerank/&quot; target=&quot;_blank&quot;&gt;PageRank Checker&lt;/a&gt;.&lt;/p&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 </textarea>
@@ -39,24 +39,24 @@ if (!empty($_POST["www"])): ?>
      
     <?php
     if (is_numeric($pagerank)): ?>
-        <img src="http://www.trickspanda.com/tools/pagerank/badges/<?php
+        <img src="http://www.hardeepasrani.com/demo/pagerank/badges/<?php
 		echo GooglePageRankChecker::getRank(stripslashes($_POST['www'])); ?>.png"/>
     <?php
 	else: ?>
-        <img src="http://www.trickspanda.com/tools/pagerank/badges/NA.png"/>
+        <img src="http://www.hardeepasrani.com/demo/pagerank/badges/NA.png"/>
     <?php
 	endif; ?>
     </div>
      <br/>
      <textarea style="width:100%;height:100px;" readonly="true" onClick="this.select();">
-<a href="http://www.trickspanda.com/tools/pagerank/" target="_blank" title="Google PageRank Checker" >
+<a href="http://www.hardeepasrani.com/demo/pagerank/" target="_blank" title="Google PageRank Checker" >
     <?php
 	if (is_numeric($pagerank)): ?>
-        <img src="http://www.trickspanda.com/tools/pagerank/badges/<?php
+        <img src="http://www.hardeepasrani.com/demo/pagerank/badges/<?php
 		echo GooglePageRankChecker::getRank(stripslashes($_POST['www'])); ?>.png" border="0" />
     <?php
 	else: ?>
-        <img src="http://www.trickspanda.com/tools/pagerank/badges/NA.png" border="0" />
+        <img src="http://www.hardeepasrani.com/demo/pagerank/badges/NA.png" border="0" />
     <?php
 	endif; ?>
 </a></textarea>
