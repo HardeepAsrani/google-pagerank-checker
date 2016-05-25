@@ -14,7 +14,7 @@
 &lt;/td&gt;&lt;/tr&gt;
 &lt;form name=&quot;pr&quot; action=&quot;http://www.hardeepasrani.com/demo/pagerank/rank.php&quot; method=&quot;post&quot; style=&quot;margin:0px;padding:0px;&quot; target=&quot;_black&quot;&gt;
 &lt;tr&gt;&lt;td style=&quot;padding:10px;background:#fff;&quot;&gt;
-&lt;input type=&quot;text&quot; value=&quot;http://&quot; name=&quot;www&quot; maxlength=&quot;150&quot; style=&quot;width:250px;padding:1px 2px 2px 3px;margin-right:10px;font-size:13px;font-family:Arial;&quot;&gt; 
+&lt;input type=&quot;text&quot; value=&quot;http://&quot; name=&quot;www&quot; maxlength=&quot;150&quot; style=&quot;width:250px;padding:1px 2px 2px 3px;margin-right:10px;font-size:13px;font-family:Arial;&quot;&gt;
 &lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot; Check PageRank &quot; style=&quot;width:80px;font-size:11px;font-family:Arial;padding:1px;&quot;&gt;
 &lt;/td&gt;&lt;/tr&gt;
 &lt;/form&gt;
@@ -28,21 +28,21 @@
 
 <?php
 
-if (class_exists('GooglePageRankChecker')) {
-    $pagerank = GooglePageRankChecker::getRank(stripslashes($_POST['www']));
+if ( class_exists( 'GooglePageRankChecker' ) ) {
+	$pagerank = GooglePageRankChecker::getRank( stripslashes( $_POST['www'] ) );
 }
 
-if (!empty($_POST["www"])): ?>
+if ( ! empty( $_POST['www'] ) ) : ?>
 <div id="badgeModal" class="reveal-modal">
     <h2 style="color:black;text-shadow:none;">Get a PageRank Website Badge</h2>
     <div style="text-align:center;">
-     
+
     <?php
-    if (is_numeric($pagerank)): ?>
+	if ( is_numeric( $pagerank ) ) : ?>
         <img src="http://www.hardeepasrani.com/demo/pagerank/badges/<?php
 		echo GooglePageRankChecker::getRank(stripslashes($_POST['www'])); ?>.png"/>
     <?php
-	else: ?>
+	else : ?>
         <img src="http://www.hardeepasrani.com/demo/pagerank/badges/NA.png"/>
     <?php
 	endif; ?>
@@ -51,11 +51,11 @@ if (!empty($_POST["www"])): ?>
      <textarea style="width:100%;height:100px;" readonly="true" onClick="this.select();">
 <a href="http://www.hardeepasrani.com/demo/pagerank/" target="_blank" title="Google PageRank Checker" >
     <?php
-	if (is_numeric($pagerank)): ?>
+	if ( is_numeric( $pagerank ) ) : ?>
         <img src="http://www.hardeepasrani.com/demo/pagerank/badges/<?php
 		echo GooglePageRankChecker::getRank(stripslashes($_POST['www'])); ?>.png" border="0" />
     <?php
-	else: ?>
+	else : ?>
         <img src="http://www.hardeepasrani.com/demo/pagerank/badges/NA.png" border="0" />
     <?php
 	endif; ?>
@@ -68,11 +68,11 @@ endif; ?>
 <h5><a href="#" data-reveal-id="myModal">What is PageRank?</a> - <a href="#" data-reveal-id="textModal">Embed This</a>
 <?php
 
-if (class_exists('GooglePageRankChecker')) {
-	$pagerank = GooglePageRankChecker::getRank(stripslashes($_POST['www']));
+if ( class_exists( 'GooglePageRankChecker' ) ) {
+	$pagerank = GooglePageRankChecker::getRank( stripslashes( $_POST['www'] ) );
 }
 
-if (!empty($_POST["www"])): ?>
+if ( ! empty( $_POST['www'] ) ) : ?>
 - <a href="#" data-reveal-id="badgeModal">Get a PageRank Website Badge</a>
 <?php
 endif; ?>
